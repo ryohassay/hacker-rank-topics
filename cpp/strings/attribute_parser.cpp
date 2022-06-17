@@ -70,6 +70,7 @@ int main() {
                 currTag->childTags.back().attrs[attr[0]] = attr[1];  // Might need to fix
             }
             currTag = &(currTag->childTags.back());
+            
         }
     }
     return 0;
